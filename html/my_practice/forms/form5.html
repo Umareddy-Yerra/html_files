@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border:2px solid black;
+            border-collapse: collapse; 
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        REGISTRATION APPLICATION FORM FOR COURSE - O LEVEL<br><br>
+        <table>
+            <tr>
+               <td colspan="3" bgcolor="blue">Registration form</td>
+               <!-- <td>data2</td>
+               <td>data3</td> -->
+            </tr>
+            <tr>
+                <td>1.0</td>
+                <td>Have you got online reference number for enrolment with
+                    NIELIT/Accreditation/Extension Cente</td>
+                <td>
+                    <label for="yes">yes</label>
+                    <input type="radio" id="yes" name="ans" value="yes"/>
+                    <label for="no">no</label>
+                    <input type="radio" id="no" name="ans" value="no"/>
+                </td>
+            </tr>
+            <tr>
+                <td>1.1</td>
+                <td>Registration sought for</td>
+                <td> <label for="levels"></label>
+                    <select name="sought for" id="levels" disabled>
+                        <option value="level"> O level</option>
+                        <option value="level2">1 level</option>
+                    </select>></td>
+            </tr>
+            <tr>
+                <td> 1.2</td>
+                <td>Appliedas</td>
+                <td> <label  for="direct">Direct Candidate</label>
+                    <input type="radio" id="direct" name="candidate" value="direct"/>
+                    <label for="inst">Through Institute</label>
+                    <input type="radio" id="inst" name="candidate" value="inst" /><br></td>
+            </tr>
+            <tr>
+                <td>1.3</td>
+                <td> Exam Cycle:</td>
+                <td> <label for="cycle"></label>
+                    <input type="text" id="cycle" name="cyc" value="july,2022"/></td>
+            </tr>
+            <tr>
+                <td>1.4 </td>
+                <td> Registration Fee Will Be Paid By?</td>
+                <td>
+                    <label for="fee"></label>
+                    <input type="text" id="fee" name="fees" value="Candidate Direct to NIELT" disabled/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" bgcolor="blue">2.Applicant's Personnal details</td>
+                <!-- <td></td>
+                <td></td> -->
+            </tr>
+           <tr>
+                 <td> 2.1</td>
+                 <td> Applicant's full name</td>
+                 <td><label for="name"></label>
+                    <select name="yourname" id="name">
+                         <option>Mr.</option>
+                         <option>Mrs.</option>
+                         <option>Ms.</option>
+                    </select>
+                    <input type="text" name="fullname" />
+                </td>
+           </tr>
+           <tr>
+                <td>2.2</td>
+                <td> Care Of</td>
+                <td> <label for="parent">parents</label>
+                    <input type="radio" id="parent" name="careof" value="parent"/>
+                    <label for="guard">guardian</label>
+                    <input type="radio" id="guard" name="careof" value="parent"/>
+                </td>
+           </tr>
+           <tr>
+                <td>2.3 </td>
+                <td> Fathers name</td>
+                <td>
+                    <select  name="fname" id="fname" disabled>
+                        <option>Mr.</option>
+                    </select><input type="text" id="fname" name="fathername"/>
+                    <label for="fname"></label>
+                </td>
+           </tr>
+           <tr>
+              <td>2.4</td>
+              <td>Mothers Name</td>
+              <td><label for="mname"></label>
+                <select  name="mname" id="mname" disabled>
+                    <option>Mrs.</option>
+                </select>
+                <input type="text" id="mname" name="mothername"/><br></td>
+           </tr>
+           <tr>
+               <td>2.5</td>
+               <td>Date of Birth</td>
+               <td><label for="dat"></label>
+                <input type="date" id="dat" name="datee"/></td>
+           </tr>
+           <tr>
+               <td>2.6</td>
+               <td>Marital Status</td>
+               <td><label for="marita"></label>
+                <select id="marita" name="married?">
+                    <option>yes</option>
+                    <option>No</option>
+                </select></td>
+           </tr>
+        </table>
+    </form>    
+</body>
+</html>

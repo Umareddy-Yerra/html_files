@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        div{
+            background-color:lightgray;
+            width:450px;
+            height:400px;
+            padding:20px;
+            position: absolute;
+            top: 18%;
+            left: 30%;
+        }
+        table,tr,td{
+            padding:10px;
+        }
+        img{
+            margin-top: 2%;
+            padding-left:240px;
+        }
+        </style>
+</head>
+<body  background="./imageee.avif" height="500" width="500">
+    <button formaction="./Home.html">Home</button>
+    <marquee><h1>Welcome to the Online Shopping Zone</h1></marquee>
+    
+    <img src="./shpingZone.png" width="100" height="100" />
+    <div>
+        <form action="./signup.html">
+            <table align="center">
+                <tr>
+                    <td colspan="2">new customer? please fill your details to create an account</td>
+                    <!-- <td></td> -->
+                </tr>
+                <tr>
+                    <td><label for="fname">firstname</label></td>
+                    <td><input type="text"id="fname" name="fname"/></td>
+                </tr>
+                <tr>
+                    <td><label for="sname">lastname</label></td>
+                    <td><input type="text" id="sname" name="lname"/></td>
+                </tr>
+                <tr>
+                    <td><label for="mai">email</label></td>
+                    <td> <input type="email" id="mai" name="mail" placeholder="eg:abc@gmail.com"/></td>
+                </tr>
+                <tr>
+                    <td> <label for="User">Username</label></td>
+                    <td> <input type="text" name="Usename" id="User"/></td>
+                </tr>
+               <tr>
+                    <td><label for="passi">password</label></td>
+                    <td><input type="password" name="pass" id="passi"/></td>
+               </tr>
+               <tr>
+                    <td><button type="submit">signup</button></td>
+                     <td>already have account? <button type="submit" formaction="./Login.html"> log in</button></td>   
+               </tr>
+                
+            </table>
+        </form>
+    </div>
+        
+</body>
+</html>

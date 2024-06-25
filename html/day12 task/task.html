@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            /* padding:20px; */
+            background-color:lightgrey;
+             position: absolute;
+            top: 18%;
+            left: 30%;
+        }
+        table tr,td{
+            padding:10px;
+        }
+        table{
+            border: 2px,solid,black;
+            top:20%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <table align="center">
+                <tr>
+                    <td><label for="user">Username:</label></td>
+                    <td><input type="text" id="user" name="usernam"/></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">email:</label></td>
+                    <td><input type="email" id="mail" name="mail"/></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">password:</label></td>
+                    <td><input type="password" id="pass" name="password"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="program">choose your fav programming language:</label></td>
+                    <td><select id="program" name="fav_lang">
+                        <option>C</option>
+                        <option>Java</option>
+                        <option>Python</option>
+                        <option>Ruby</option>
+                        <option>.Net</option>
+                        <option>C++</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td> Gender:</td>
+                    <td><label for="rad">Male</label>
+                        <input type="radio" id="rad" name="gender" value="rad"/>
+                        <label for="radi">Female</label>
+                        <input type="radio" id="radi" name="gender" value="radi"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="rad14"></label></td>
+                    <td><input type="submit" id="rad14"/></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+   
+</body>
+</html>
